@@ -5,9 +5,20 @@ namespace SharpUITemplate
 
     public partial class App : Application
     {
-        public App()
+        protected override Window CreateWindow(IActivationState activationState)
         {
-            MainPage = new AppShell();
+            var window = new Window(new AppShell())
+            {
+                Title = "Moja Aplikacja",
+                Width = 1200,
+                Height = 800,
+                MinimumWidth = 600,
+                MinimumHeight = 400,
+                X = 100,  // pozycja od lewej
+                Y = 100   // pozycja od góry
+            };
+
+            return window;
         }
     }
 }

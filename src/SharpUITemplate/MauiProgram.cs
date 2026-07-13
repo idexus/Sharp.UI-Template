@@ -10,7 +10,7 @@ namespace SharpUITemplate
         {
             var builder = MauiApp.CreateBuilder();
             builder
-                .SharpUIApp<App>(HotReloadSupport.IdeIPs)
+                .SharpUIApp()
                 .UseMauiApp<App>()            
                 .ConfigureFonts(fonts =>
                 {

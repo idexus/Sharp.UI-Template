@@ -2,6 +2,7 @@
 
 using Microsoft.Maui.Controls.Shapes;
 using Sharp.UI;
+using SharpUITemplate;
 
 public class AppResources
 {
@@ -111,13 +112,6 @@ public class AppResources
                 new VisualState<Entry>(VisualStates.VisualElement.Disabled, e => e
                     .TextColor(e => e.OnLight(AppColors.Gray300).OnDark(AppColors.Gray600)))
             },              
-
-            // "Frame"
-
-            new Style<Frame>(e => e
-                .HasShadow(false)
-                .BorderColor(e => e.OnLight(AppColors.Gray200).OnDark(AppColors.Gray950))
-                .CornerRadius(8)),
             
             // "ImageButton"
 
@@ -147,12 +141,6 @@ public class AppResources
                 new VisualState<Label>(VisualStates.VisualElement.Disabled, e => e
                     .TextColor(e => e.OnLight(AppColors.Gray300).OnDark(AppColors.Gray600)))
             },
-
-            // "ListView"
-
-            new Style<ListView>(e => e
-                .SeparatorColor(e => e.OnLight(AppColors.Gray200).OnDark(AppColors.Gray500))
-                .RefreshControlColor(e => e.OnLight(AppColors.Gray900).OnDark(AppColors.Gray200))),
 
             // "Picker"
 
