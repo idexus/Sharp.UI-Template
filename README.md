@@ -2,9 +2,13 @@
 
 A vanilla sample project using nuget package
 
-<a href="https://youtu.be/wxQr0p3lEg0" target="_blank">
- <img src="https://github.com/idexus/Sharp.UI/raw/main/doc/assets/ytscreen2.jpg" alt="Hot Reload Support" width="640" border="0" />
-</a>
+<img src="https://github.com/idexus/Sharp.UI-Template/raw/main/assets/screen.jpg" width="640" border="0" />
+
+## Nuget Package
+
+To add __Sharp.UI__ to your project, along with all its functionality, you can use:
+
+- [https://www.nuget.org/packages/Sharp.UI](https://www.nuget.org/packages/Sharp.UI)
 
 # License 
 
