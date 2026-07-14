@@ -2,7 +2,7 @@
 
 using Sharp.UI;
 
-public partial class HelloWorldPage : ContentPage
+public sealed partial class HelloWorldPage : ContentPage
 {
     int count = 0;
 
