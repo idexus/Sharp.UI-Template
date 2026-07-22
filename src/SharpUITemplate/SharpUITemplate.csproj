@@ -63,6 +63,6 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.10" />
-		<PackageReference Include="Sharp.UI" Version="10.0.0-beta.5" />
+		<PackageReference Include="Sharp.UI" Version="10.0.1-beta.1" />
 	</ItemGroup>
 </Project>
