@@ -28,7 +28,7 @@
 		<ApplicationIdGuid>a031018e-0009-492a-a526-19df397d7426</ApplicationIdGuid>
 
 		<!-- Versions -->
-		<ApplicationDisplayVersion>10.0</ApplicationDisplayVersion>
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 
     <!-- To develop, package, and publish an app to the Microsoft Store, see: https://aka.ms/MauiTemplateUnpackaged -->
@@ -61,8 +61,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.90" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.10" />
-		<PackageReference Include="Sharp.UI" Version="10.0.1-beta.1" />
+		<PackageReference Include="Sharp.UI" Version="10.0.90-beta.1" />
 	</ItemGroup>
 </Project>
